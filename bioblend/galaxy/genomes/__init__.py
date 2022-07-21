@@ -32,7 +32,7 @@ class GenomeClient(Client):
         genomes = self._get()
         return genomes
 
-    def show_genome(self, id: str, num: str = None, chrom: str = None, low: str = None, high: str = None) -> Response:
+    def show_genome(self, id: str, num: str = None, chrom: str = None, low: str = None, high: str = None) -> dict:
         """
         Returns information about build <id>
 
