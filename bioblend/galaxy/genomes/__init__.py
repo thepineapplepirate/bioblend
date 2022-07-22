@@ -8,8 +8,6 @@ from typing import (
     TYPE_CHECKING,
 )
 
-from requests.models import Response
-
 from bioblend.galaxy.client import Client
 
 if TYPE_CHECKING:
